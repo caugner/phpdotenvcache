@@ -5,7 +5,7 @@ class CachedDotenv extends Dotenv {
 
   const DEFAULT_ENV_FILE = '.env';
   const DEFAULT_CACHE_FILE = '.env.cache.php';
-  
+
   const TO_ENV = 1;
   const TO_SERVER = 2;
   const TO_ENV_AND_SERVER = self::TO_ENV | self::TO_SERVER;
@@ -63,7 +63,7 @@ class CachedDotenv extends Dotenv {
 
   private function renewCache($cacheFilePath) {
     $env = $this->loadFromEnv();
-    $this->cache($env, $cacheFilePath);
+    $this->writeCache($env, $cacheFilePath);
   }
 
   private function loadFromEnv() {
