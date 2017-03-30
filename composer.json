@@ -1,0 +1,23 @@
+{
+    "name": "caugner/phpdotenvcache",
+    "type": "library",
+    "description": "A simple cached loader for Phpdotenv",
+    "homepage": "https://github.com/caugner/phpdotenvcache",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Claas Augner",
+        "email": "github@caugner.de",
+        "homepage": "https://github.com/caugner"
+      }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "Dotenv\\": "src/",
+        "Dotenv\\Tests\\": "tests/"
+      }
+    }
+}
