@@ -26,4 +26,7 @@ Finally, you can use the PHP dotenv cache:
 ```php
 $dotenv = new Dotenv\CachedDotenv();
 $dotenv->load(__DIR__);
+// Alternatively, only load to $_ENV or $_SERVER globals:
+// $dotenv->loadToEnv(__DIR__);
+// $dotenv->loadToServer(__DIR__); 
 ```
