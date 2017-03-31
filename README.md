@@ -1,6 +1,11 @@
 # Cache for PHP dotenv
 A simple cached loader for [PHP dotenv](https://github.com/vlucas/phpdotenv).
 
+[![Build Status](https://travis-ci.org/caugner/phpdotenvcache.svg?branch=master)](https://travis-ci.org/caugner/phpdotenvcache)
+[![Code Climate](https://codeclimate.com/github/caugner/phpdotenvcache/badges/gpa.svg)](https://codeclimate.com/github/caugner/phpdotenvcache)
+[![Latest Stable Version](https://poser.pugx.org/claas/phpdotenvcache/v/stable)](https://packagist.org/packages/claas/phpdotenvcache)
+[![License](https://poser.pugx.org/claas/phpdotenvcache/license)](https://packagist.org/packages/claas/phpdotenvcache)
+
 ## Usage
 
 First, install [Composer](http://getcomposer.org/).
