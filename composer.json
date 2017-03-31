@@ -1,5 +1,5 @@
 {
-    "name": "caugner/phpdotenvcache",
+    "name": "claas/phpdotenvcache",
     "type": "library",
     "description": "A simple cached loader for Phpdotenv",
     "homepage": "https://github.com/caugner/phpdotenvcache",
