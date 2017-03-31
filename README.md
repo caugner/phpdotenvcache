@@ -12,7 +12,7 @@ curl -sS https://getcomposer.org/installer | php
 Next, add phpdotenvcache:
 
 ```
-php composer.phar require caugner/phpdotenvcache
+php composer.phar require claas/phpdotenvcache
 ```
 
 Then, include Composer's autoloader:
